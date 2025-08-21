@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const LoginPage = () => {
+const loginPage = () => {
   return (
     <div className="min-h-screen bg-white flex flex-col p-6">
       <div className="w-full max-w-sm mx-auto mt-10">
@@ -27,4 +27,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default loginPage;
